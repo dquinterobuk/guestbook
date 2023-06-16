@@ -56,6 +56,7 @@ final class CommentAdmin extends AbstractAdmin
             ->add('id')
             ->addIdentifier('author')
             ->add('email')
+            ->add('photo_filename')
             ->add('text')
             ->add('state')
             ->add('conference')
